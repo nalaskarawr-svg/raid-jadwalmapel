@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JADWAL MAPEL</title>
+    <style>
+        /* warna dan ukuran bisa di sesuaikan sendiri */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:rgb(192, 255, 216) ;
+        }
+
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: separate;
+            text-align: center;
+            padding: 8px;
+            border-spacing: 5px;
+        }
+
+
+
+
+        table {
+            width: 80%;
+            background-color: rgb(104, 90, 9) ;
+            Margin-top: 100px;
+
+
+        }
+
+
+
+
+        th,
+        td {
+            background-color: rgb(243, 243, 243);
+        }
+
+
+
+
+        caption {
+            font-size: 30px;
+            /* font-family: ; */
+            font-weight: 900;
+            color: rgb(19, 0, 71);
+        }
+    </style>
+</head>
+
+
+<body>
+    <table>
+        <caption>jadwal pelajaran roit
+
+        </caption>
+
+
+        <!-- HEADER -->
+        <!-- Day, Seminar, Schedule (Begin, End), Topic -->
+
+
+
+
+        <!-- CONTENT DAY -->
+        <!-- Jadwal Senin-Jumat beserta waktu dan Mapelnya -->
+        <tr>
+            <tH rowspan="3">DAY</th>
+            <TH colspan="3">SEMINAR</TH>
+        </tr>
+        <TR>
+            <TH colspan="2">SCHEDULE</TH>
+            <TH rowspan="2">Topic</TH>
+        </TR>
+        <TR>
+            <TH>BEGIN</TH>
+            <TH>END</TH>
+        </TR>
+        <TR>
+            <TH rowspan="6">SENIN</TH>
+            <TD>7:30</TD>
+            <TD>9;30</TD>
+            <TH>AGAMA</TH>
+        </TR>
+        <TR>
+            <TD>9;30</TD>
+            <TD>10;10</TD>
+            <TH>IPA</TH>
+        </TR>
+        <TR>
+            <TD>10;10</TD>
+            <TD>10;30</TD>
+            <TH>ISTIRAHAT 1</TH>
+        </TR>
+        <TR>
+            <TD>10;30</TD>
+            <TD>11;50</TD>
+            <TH>IPA</TH>
+        </TR>
+        <TR>
+            <TD>11;50</TD>
+            <TD>12;40</TD>
+            <TH>ISTIRAHAT 2</TH>
+        </TR>
+        <TR>
+            <TD>12;40</TD>
+            <TD>14;00</TD>
+            <TH>INGGRIS</TH>
+        </TR>
+        <TR>
+            <TH rowspan="6">SELASA</TH>
+            <TD>7:30</TD>
+            <TD>8;50</TD>
+            <TH>INGGRIS</TH>
+        </TR>
+        <TR>
+            <TD>8;50</TD>
+            <TD>10;10</TD>
+            <TH>IPS</TH>
+        </TR>
+        <TR>
+            <TD>10;10</TD>
+            <TD>10;30</TD>
+            <TH>ISTIRAHAT 1</TH>
+        </TR>
+        <TR>
+            <TD>10;30</TD>
+            <TD>11;50</TD>
+            <TH>INFORMATIKA</TH>
+        </TR>
+        <TR>
+            <TD>11;50</TD>
+            <TD>12;40</TD>
+            <TH>ISTIRAHAT 2</TH>
+        </TR>
+        <TR>
+            <TD>12;40</TD>
+            <TD>14;00</TD>
+            <TH>BAHASA INDONESIA</TH>
+        </TR>
+        <TR>
+            <TH rowspan="6">RABU</TH>
+            <TD>7:30</TD>
+            <TD>8;50</TD>
+            <TH>IPA</TH>
+        </TR>
+        <TR>
+            <TD>8;50</TD>
+            <TD>10;10</TD>
+            <TH>BAHASA INDONESIA</TH>
+        </TR>
+        <TR>
+            <TD>10;10</TD>
+            <TD>10;30</TD>
+            <TH>ISTIRAHAT 1</TH>
+        </TR>
+        <TR>
+            <TD>10;30</TD>
+            <TD>11;50</TD>
+            <TH>CODING</TH>
+        </TR>
+        <TR>
+            <TD>11;50</TD>
+            <TD>12;40</TD>
+            <TH>ISTIRAHAT 2</TH>
+        </TR>
+        <TR>
+            <TD>12;40</TD>
+            <TD>14;00</TD>
+            <TH>MATEMATIKA</TH>
+        </TR>
+        <TR>
+            <TH rowspan="6">KAMIS</TH>
+            <TD>7:30</TD>
+            <TD>9;30</TD>
+            <TH>PJOK</TH>
+        </TR>
+        <TR>
+            <TD>9;30</TD>
+            <TD>10;10</TD>
+            <TH>MATEMATIKA</TH>
+        </TR>
+        <TR>
+            <TD>10;10</TD>
+            <TD>10;30</TD>
+            <TH>ISTIRAHAT 1</TH>
+        </TR>
+        <TR>
+            <TD>10;30</TD>
+            <TD>11;50</TD>
+            <TH>MATEMATIKA</TH>
+        </TR>
+        <TR>
+            <TD>11;50</TD>
+            <TD>12;40</TD>
+            <TH>ISTIRAHAT 2</TH>
+        </TR>
+        <TR>
+            <TD>12;40</TD>
+            <TD>14;00</TD>
+            <TH>BAHASA INDONESIA</TH>
+        </TR>
+        <TR>
+            <TH rowspan="7">JUMAT</TH>
+            <TD>7:30</TD>
+            <TD>8;50</TD>
+            <TH>IPS</TH>
+        </TR>
+        <TR>
+            <TD>8;50</TD>
+            <TD>10;10</TD>
+            <TH>SBDP</TH>
+        </TR>
+        <TR>
+            <TD>10;10</TD>
+            <TD>10;30</TD>
+            <TH>ISTIRAHAT 1</TH>
+        </TR>
+        <TR>
+            <TD>10;30</TD>
+            <TD>11;10</TD>
+            <TH>SBDP</TH>
+        </TR>
+        <TR>
+            <TD>11;10</TD>
+            <TD>11;50</TD>
+            <TH>PPKN</TH>
+        </TR>
+        <TR>
+            <TD>11;50</TD>
+            <TD>12;40</TD>
+            <TH>ISTIRAHAT 2</TH>
+        </TR>
+        <TR>
+            <TD>12;40</TD>
+            <TD>14;00</TD>
+            <TH>PPKN</TH>
+        </TR>
+    </table>
+
+</body>
+
+</html>
